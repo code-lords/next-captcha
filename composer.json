@@ -1,0 +1,30 @@
+{
+    "name": "codelord/next-capture",
+    "description": "An Innovative CAPTCHA library in PHP",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Daaki Benjamin",
+            "email": "richarddaaki4@gmail.com",
+            "homepage": "https://github.com/daakibenja"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^4.6"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Codelords\\NextCaptcha\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "beta"
+}
